@@ -1,0 +1,18 @@
+Package: gamlss.copula
+Title: Generating and Fitting Bivariate Copulas within 'gamlss2'.
+Version: 0.0-1
+Date: 2025-08-21
+Authors@R: c(person("Arthur", "Fendrich", role = c("aut", "cre"),
+		email = "arthur.fendrich@ec.europa.eu"),
+	person("Elise", "Van Eynde", role = c("aut")),
+	person("Mikis", "Stasinopoulos", role = c("aut", "cph"), 
+		email = "d.stasinopoulos@gre.ac.uk", comment = c(ORCID = "0000-0003-2407-5704")),
+	person("Robert", "Rigby", role = "aut", email = "r.rigby@gre.ac.uk",
+		comment = c(ORCID = "0000-0003-3853-1707")))
+Description: This is an add-on package to 'gamlss2' which bivariate copulas from the 'copula' package
+        The main function gen.copula() generates bivariate copulas from existing gamlss distribution marginals.
+License: GPL-2 | GPL-3
+URL: http://www.gamlss.org/
+BugReports: http://www.gamlss.org/
+Depends: R (>= 2.2.1), gamlss2, gamlss.dist, pbivnorm, sn
+LazyLoad: yes
